@@ -1,0 +1,28 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="93px" height="93px" viewBox="0 0 93 93" style="enable-background:new 0 0 93 93;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:none;stroke:#262625;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#262625;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#262625;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#262625;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+]]>
+</style>
+<g>
+	<circle class="st0" cx="46.5" cy="46.191" r="45"/>
+	<g>
+		<g>
+			<polygon class="st1" points="39.25,43.5 25.25,43.5 27.25,15.5 37.25,15.5 			"/>
+			<path class="st1" d="M42.25,74.346c0,1.656-1.343,3.154-3,3.154h-13c-1.657,0-3-1.498-3-3.154l-2-22.923
+				c0-1.657,1.343-2.923,3-2.923h17c1.657,0,3,1.266,3,2.923L42.25,74.346z"/>
+			<path class="st1" d="M28.095,72.346l-1.181-13.66c0,0-0.298-2.093,0.794-3.635c1.275-1.799,4.083-1.551,4.083-1.551h7.265
+				L28.095,72.346z"/>
+		</g>
+		<g>
+			<line class="st3" x1="64.25" y1="24.691" x2="64.25" y2="42.691"/>
+			<polygon class="st3" points="69.75,77.191 58.75,77.191 56.75,46.191 71.75,46.191 			"/>
+			<polygon class="st2" points="67.381,15.691 64.25,21.115 61.119,15.691 			"/>
+		</g>
+	</g>
+</g>
+</svg>

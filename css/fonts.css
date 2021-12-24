@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'LHF Sofia Script';
+    src: url('../fonts/LHFSofiaScript.woff2') format('woff2'),
+        url('../fonts/LHFSofiaScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Alt Rg';
+    src: url('../fonts/ProximaNovaA-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canter Outline';
+    src: url('../fonts/CanterOutline.woff2') format('woff2'),
+        url('../fonts/CanterOutline.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Cn Rg';
+    src: url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaCond-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canter';
+    src: url('../fonts/CanterBold.woff2') format('woff2'),
+        url('../fonts/CanterBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
