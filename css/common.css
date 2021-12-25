@@ -1,0 +1,65 @@
+
+/* ----------------- LAY OUT ----------------- */
+.wrapper{
+    width: 1270px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.narrow{
+    width:610px;
+}
+
+main > section{
+    padding:80px 0;
+}
+
+/* ----------------- FONT ----------------- */
+body{
+    background: url(../images/debut_dark.png);
+    font:16px/27px 'Proxima Nova Alt Rg', 'snas-serif';
+}
+
+
+/* ----------------- STYLE ----------------- */
+.skew{ /* 글자 비틀기 */
+    transform: skewY(-12deg);
+}
+
+.content_tit{ /* 섹션 제목 */
+    margin-bottom:70px;
+    font:bold 67px 'Canter', 'snas-serif';
+    text-align: center;
+}
+
+.content_desc{ /* 콘텐츠 설명 */
+    width:870px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.divide_line{ /* 선 */
+    position: relative;
+    width:888px;
+    margin: 0 auto;
+}
+
+.divide_line::before,
+.divide_line::after{
+    content:"";
+    position: absolute;    
+    top:50%;
+    transform: translateY(-50%);
+    height:2px;
+    background: #fff;
+}
+
+.divide_line::after{
+    left: calc(50% + 40px);
+    right: 0;
+}
+
+.divide_line::before{
+    right: calc(50% + 40px);
+    left: 0;
+}

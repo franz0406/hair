@@ -1,0 +1,221 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./common.css);
+
+/* ----------------- HEADER ----------------- */
+header{
+    position: relative;
+    padding:170px 0;
+    height:760px;
+    color:#fff;
+    text-align: center;
+    background: url(../images/header_bg.jpg) no-repeat ;
+    box-sizing: border-box;
+}
+
+header .fa-heart{
+    font-size:30px;
+}
+
+header > h1{
+    margin-top: 85px;
+    font-family: 'Canter Outline', sans-serif;
+    font-size:190px;
+}
+
+header > h2{
+    margin-top: 90px;
+    font-family: 'Canter', sans-serif;
+    font-size:100px;
+}
+
+header > p{
+    margin-top: 80px !important; 
+    font-family: 'Proxima Nova Lt',sans-serif;
+    font-size:23px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header > p.divide_line:after{
+    left: calc(50% + 160px);
+}
+
+header > p.divide_line:before{
+    right: calc(50% + 160px);
+}
+
+header > nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:54px;
+    background: rgba(0,0,0,.8);
+}
+
+header > nav > ul{
+    display: inline-block;    
+}
+
+header > nav > ul > li{
+    float:left;
+    margin: 0 50px;
+}
+
+header > nav > ul > li > a{
+    color:#fff;
+    text-decoration:none;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+/* ----------------- WHAT WE DO ----------------- */
+#what_we_do{
+    background: url(../images/what_we_do_bg.png);
+    text-align: center;
+}
+
+#what_we_do > .features_icons{
+    display: inline-block;
+    margin: 80px auto;
+}
+
+#what_we_do > .features_icons > li{
+    float: left;
+    width:120px;
+    margin: 0 80px;
+}
+
+#what_we_do > .features_icons > li > h3{
+    font-size:18px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+#what_we_do > p.content_desc{
+    width:610px !important;
+}
+#what_we_do > h4{
+    margin-top: 60px;
+    font-family: 'LHF Sofia Script';
+    font-size:60px;
+}
+
+/* ----------------- BEFORE AFTER ----------------- */
+#before_after{
+    background: url(../images/before_after_bg.jpg) no-repeat ;
+    color:#fff;
+}
+
+#before_after > .b_a_slider{
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#before_after > .b_a_slider > ul{
+    display: inline-block;
+}
+
+#before_after > .b_a_slider > ul > li:after{
+    display: block;
+    content:"";
+    clear: both;
+
+}
+
+#before_after > .b_a_slider > ul > li > div{
+    float: left;
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle{    
+    width:470px;
+    height:470px;
+    padding:22px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    box-sizing: border-box; 
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle > .inner_circle{
+    width:426px;
+    height:426px;
+    border-radius: 50%;
+    overflow: hidden;   
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle:last-of-type{
+    position: relative;
+    margin-left: -70px;
+    shape-outside: circle();
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle:last-of-type > h3{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    transform:translateX(-50%);
+    color:#BA433F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle:last-of-type > h3 > span{
+    font-size:24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle:last-of-type > .inner_circle{
+    width:426px;
+    height:426px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#before_after > .b_a_slider > ul > li > .outer_circle:last-of-type > .inner_circle > p{
+    position: absolute;
+    width:70%;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#before_after > .b_a_slider > .controls > p{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:50px;
+    height:100px;
+    background: url(../images/slide_nav_btn.png) no-repeat;
+}
+
+#before_after > .b_a_slider > .controls > p.next{
+    right: 60px;
+    background-position: -52px 0;
+    cursor: pointer;
+}
+
+#before_after > .b_a_slider > .controls > p.prev{
+    left: 60px;
+    background-position: 0px 0;
+    cursor: pointer;
+}
+
+
+
+/* ----------------- INSPIRATION ----------------- */
+
+
+
+/* ----------------- MEET US ----------------- */
+
+
+
+/* ----------------- FOOTER ----------------- */
+
+
